@@ -32,19 +32,19 @@ Follow these steps to run the project locally:
 
 1. Clone the repository:
    
-     git clone https://github.com/SS7Leo/digital-clock.git
+     "git clone https://github.com/SS7Leo/digital-clock.git"
    
 2. Navigate to the project directory:
 
-     cd digital-clock
+     "cd digital-clock"
 
 3. Install dependencies:
 
-     npm install
+     "npm install" or "npm i"
 
 4. Start the development server:
 
-     npm start
+     "npm start"
 
 5. Open your browser and visit:
 
