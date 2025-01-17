@@ -32,25 +32,23 @@ Follow these steps to run the project locally:
 
 1. Clone the repository:
    
-   git clone https://github.com/SS7Leo/digital-clock.git
+     git clone https://github.com/SS7Leo/digital-clock.git
    
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 
-cd digital-clock
+     cd digital-clock
 
 3. Install dependencies:
 
-npm install
+     npm install
 
 4. Start the development server:
 
-npm start
+     npm start
 
-6. Open your browser and visit:
+5. Open your browser and visit:
 
-arduino
-
-http://localhost:3000
+     http://localhost:3000
 
 ---
 
