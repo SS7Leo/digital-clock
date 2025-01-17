@@ -1,4 +1,4 @@
-# Digital Clock Project
+# Digital Clock Project Using React.js 
 
 This repository contains the code for a digital clock built using React. The clock displays the current time dynamically and updates every second. It includes a 12-hour format with AM/PM indicators, styled for a clean and modern user interface.
 
