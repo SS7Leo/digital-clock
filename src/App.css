@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+  position: fixed;
+  color: #fff;
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,
+  0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6,
+   0 0 30px #0073e6,0 0 35px #0073e6;
+}
+.date{
+  text-align: center;
+  color: darkslateblue;
+  text-shadow:  0 0 5px #fff,0 0 10px #fff,
+  0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6,
+   0 0 30px #0073e6,0 0 35px #0073e6;
+  text-transform: uppercase;
+}
+.outerdiv{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.ampm{
+  position: relative;
+  color: darkorange;
+  font-weight: 700;
+
+}
+.clock:hover{
+  background-color: rgb(173,216,230);
+  box-shadow: 0 20px 20px rgb(173,216,230,0.2);
+  cursor: pointer;
+}
+
+@media only screen and (max-width : 600px){
+  .clock{
+    position: relative;
+    width: 300px;
+    height: 140px;
+    background: rgba(255,255,255,0.05);
+    box-shadow:  0 15px 25px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+
+
+  }
+  .clock .container h2{
+    font-size: 3em;
+
+
+  }
+  .clock .container h2:nth-child(odd){
+    padding: 4px 2px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.05);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    margin: 0 1px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+
+  }
+  .ampm{
+    top: -12px;
+    font-size: 1em;
+
+
+  }
+
+  
+}
+@media only screen and (min-width : 600px){
+  .clock{
+    position: relative;
+    width: 400px;
+    height: 140px;
+    background: rgba(255,255,255,0.05);
+    box-shadow:  0 15px 25px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+
+
+  }
+  .clock .container h2{
+    font-size: 4em;
+
+
+  }
+  .clock .container h2:nth-child(odd){
+    padding: 1px 1px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.05);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    margin: 0 1px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+
+  }
+  .ampm{
+    top: -20px;
+    font-size: 1em;
+    
+
+  }
+
+  
+}
+@media only screen and (min-width : 768px){
+  .clock{
+    position: relative;
+    width: 700px;
+    height: 250px;
+    background: rgba(255,255,255,0.05);
+    box-shadow:  0 15px 25px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+
+
+  }
+  .clock .container h2{
+    font-size: 6em;
+
+
+  }
+  .clock .container h2:nth-child(odd){
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.05);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    margin: 0 1px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+
+  }
+  .ampm{
+    top: -50px;
+    font-size: 2em;
+    
+
+  }
+
+  
+}
