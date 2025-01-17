@@ -55,5 +55,6 @@ http://localhost:3000
 ---
 
 ## Output
-- 
+
+![Image](https://github.com/user-attachments/assets/ab51f839-e8d1-4f1d-aa31-ff63780ff24b)
 
